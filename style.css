@@ -26,7 +26,8 @@ border-bottom: 2px solid rgb(3, 0, 3);
     font-size:  22px; 
 }
 .menu{
-    width: 80%;
+    max-device-width: 900px;
+    width: 100%;
     text-align: right;
     
 }
