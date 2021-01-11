@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif; 
+
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+background-color: rgb(238, 204, 11);
+padding: 5px 0;
+border-bottom: 2px solid rgb(3, 0, 3);
+}
+.logo{
+    color: rgb(5, 0, 0);
+}
+.logo h2{
+    font-weight: Arial;
+    font-size:  22px; 
+}
+.menu{
+    width: 80%;
+    text-align: right;
+    
+}
+.menu a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.4s;
+}
+.menu a:hover{
+    color:brown;
+}
+.menu .btn-menu{
+    background-color:rgb(248, 248, 118) ;
+    display: inline-block;
+    padding: 16px 20px;
+    color: black;
+    border-radius:  12px;
+}
+.menu .btn-menu:hover{
+     background-color: orange;
+     color: white;
+    }
+    /*
+    section main
+    */
+section.main{
+    background-image:url("wallhaven-1jyo3v.png");
+    padding: 70px 0 ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main_cta{
+width: 100%;
+margin: 60px 0px;
+text-align: center;
+}
+.main_cta a{
+    color: orange;
+    font-size: 40px;
+}
+.main_cta p{
+    color:rgb(255, 166, 0) ;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.main_cta button{
+    background-color:rgb(248, 248, 118) ;
+    display: inline-block;
+    padding: 16px 30px;
+    color: black;
+    font-size: 22px;
+    border-radius:  12px;
+    border: 0px;
+    cursor: pointer;
+}
+.diferenciais{
+    display: flex;
+    flex-wrap:wrap;
+}
+.main .diferencial-single{
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.432);
+width: 24%;
+margin-right: 1%;
+padding: 50px 30px;
+
+
+}
+.diferenciais-single.i{
+    color: black;
+    font-size: 23px;
+   
+
+}
+.diferencial-single a{
+    background-color:rgb(248, 248, 118) ;
+    display: inline-flex;
+    padding: 10px 15px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+    
+}
+.diferencial-single a:hover{
+    background-color: orange;
+     color: white;
+     
+}
+.diferencial-single p{
+font-size: 16px;
+color: black;
+font-family:'Poppins', sans-serif;
+line-height: 20px;
+}
+
+/* section sobre*/
+.section.sobre{
+    padding: 80px 0;
+    
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.chamada-sobre h2{
+    color: black;
+}
+.chamada-sobre p{
+    font-size: 14px;
+    color: black;
+    margin: 10px 0;
+}
+.conteudo-sobre{
+    display: flex;
+}
+.conteudo-sobre p{
+    
+    margin: 0px 20px;
+    flex-wrap: wrap;
+}
+.conteudo-sobre p{
+    width: 100%;
+    margin:20px 20px;
+}
+/*section redes sociais*/
+
+.redes-sociais{
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+.redes-sociais a{
+    margin: 4px 75px;
+    margin-left: 5px ;
+    font-family:'Poppins', sans-serif;
+    color: black;
+}
+
+.redes-sociais i{
+    color: black;
+    font-size: 25px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .diferencial-single {
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
