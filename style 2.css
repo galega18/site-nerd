@@ -109,6 +109,10 @@ color: black;
 font-family:'Poppins', sans-serif;
 line-height: 75px;
 }
+.diferencial-single a:hover{
+     color: black;
+     
+}
 
 
 
